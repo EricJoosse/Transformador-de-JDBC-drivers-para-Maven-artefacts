@@ -61,6 +61,7 @@
             <version>0.11</version>
             <configuration>
                 <message>Upload Maven artifacts </message>  <!-- git commit message -->
+                <merge>true</merge>            <!--  Caso contrário, o plugin faz um force commit e apaga o README.md -->
                 <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
                 <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
                 <branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
