@@ -9,7 +9,7 @@
 <listEntry value="file=jaybird-full-2.2.10.jar"/>
 <listEntry value="javadoc=jaybird-2.2.10-javadoc.jar"/>
 <listEntry value="groupId=org.firebirdsql.jdbc"/>
-<listEntry value="artifactId=jaybird"/>
+<listEntry value="artifactId=jaybird-full"/>
 <listEntry value="version=2.2.10"/>
 <listEntry value="packaging=jar"/>
 <listEntry value="generatePom=true"/>
