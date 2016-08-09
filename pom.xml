@@ -26,6 +26,8 @@
       <plugins>
       <plugin>
         <artifactId>maven-install-plugin</artifactId>
+<!-- A versão antiga 2.5.2 é recomendada por Apache Maven 06/08/2016,                                -->
+<!-- veja http://maven.apache.org/plugins/maven-install-plugin/examples/custom-pom-installation.html -->
         <version>2.5.2</version>
         <executions>
           <execution>
