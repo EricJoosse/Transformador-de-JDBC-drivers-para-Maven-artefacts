@@ -3,9 +3,9 @@
 Até agora apenas os seguintes drivers já foram transformados : 
 * Firebird
 * Oracle
-* SAP
-
  
+Observação: o JCO driver do SAP não pode ser transformado pois o driver não permite renomeação, além da questão da licença.
+  
 Estes 2 Maven artifacts foram "deployed" para o seguinte Remote Maven Repository : 
 
 https://github.com/EricJoosse/Remote-Maven-Repository-de-JDBC-Drivers 
@@ -33,11 +33,6 @@ Estes Maven artifacts podem ser referenciados em arquivos pom.xml da seguinte fo
     	<groupId>org.firebirdsql.jdbc</groupId>
     	<artifactId>jaybird-full</artifactId>
     	<version>2.2.10</version>
-    </dependency>
-    <dependency>
-    	<groupId>com.sap</groupId>
-    	<artifactId>jco-sap</artifactId>
-    	<version>3.0.17</version>
     </dependency>
   </dependencies>
 ```
